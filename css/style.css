@@ -338,6 +338,9 @@ p {
     background: #FFFFFF;
     width: 23%;
     height: 444.51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .carte-activites img {
@@ -386,4 +389,58 @@ p {
 .pied-de-page a {
     text-decoration: none;
     color: #000000;
+}
+
+/* CSS TABLETTES */
+
+@media screen and (max-width: 991px) {
+    
+    #hebergements {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteneur-hebergements {
+        width: auto;
+    }
+
+    .carte-hebergements {
+        width: 31%;
+    }
+
+    .conteneur-activites {
+        width: 100%;
+    }
+
+    .conteneur-populaires {
+        padding: 41px 40px 34px 40px;
+        width: auto;
+    }
+
+    .titre-conteneur-populaires {
+        justify-content: space-between;
+    }
+
+    .resultats-populaires {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .carte-activites {
+        height: 267px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .carte-activites img {
+        height: 211px;
+    }
+
+}
+
+/* CSS MOBILES */
+
+@media all and (max-width: 767px) {
+
 }
