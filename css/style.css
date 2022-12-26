@@ -8,7 +8,6 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #FFFFFF;
-    min-width: 992px;
     max-width: 1400px;
     margin: auto;
 }
@@ -123,6 +122,10 @@ p {
     font-size: 1.125em;
     position: absolute;
     z-index: 1;
+}
+
+.fa-magnifying-glass {
+    display: none;
 }
 
 /* FILTRES */
@@ -442,5 +445,39 @@ p {
 /* CSS MOBILES */
 
 @media all and (max-width: 767px) {
+
+    .en-tete {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu {
+        width: 100%;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 31px;
+    }
+
+    .menu a {
+        padding-bottom: 20px;
+        text-align: center;
+        margin: 0;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    .menu a:hover {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+    }
 
 }
