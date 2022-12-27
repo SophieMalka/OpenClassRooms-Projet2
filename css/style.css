@@ -486,7 +486,7 @@ p {
     }
 
     .fa-magnifying-glass {
-        display: contents;
+        display: none;
     }
 
 }
