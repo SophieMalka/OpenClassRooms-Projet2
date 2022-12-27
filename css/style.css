@@ -74,10 +74,9 @@ p {
 .bloc-recherche {
     margin-left: 55px;
     margin-top: 20px;
-    display: flex;
 }
 
-.bloc-recherche label {
+#localisation {
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
@@ -87,6 +86,7 @@ p {
     font-size: 1.125em;
     z-index: 1;
 }
+
 
 .fa-solid.fa-location-dot {
     font-size: 1.125em;
@@ -481,12 +481,33 @@ p {
         border-bottom: 3px solid #0065FC;
     }
 
+    .bloc-recherche {
+        margin-left: 0;
+    }
+
+    #form-recherche {
+        justify-content: center;
+        display: flex;
+    }
+
+    #localisation {
+        left: 8%;
+    }
+
     .bloc-recherche span {
         display: none;
     }
 
+    .bloc-recherche input {
+        width: 66%;
+    }
+
+    .bloc-recherche button {
+        margin-left: 72%;
+    }
+
     .fa-magnifying-glass {
-        display: none;
+        display: contents;
     }
 
 }
