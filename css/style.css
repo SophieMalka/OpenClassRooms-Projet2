@@ -112,7 +112,8 @@ p {
 }
 
 .bloc-recherche button {
-    width: 132px;
+    width: fit-content;
+    padding: 16px;
     height: 49px;
     margin-left: 300px;
     border: 1px solid #0065FC;
@@ -478,6 +479,14 @@ p {
     .menu a:hover {
         border-top: none;
         border-bottom: 3px solid #0065FC;
+    }
+
+    .bloc-recherche span {
+        display: none;
+    }
+
+    .fa-magnifying-glass {
+        display: contents;
     }
 
 }
