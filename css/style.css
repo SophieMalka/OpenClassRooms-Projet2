@@ -404,7 +404,7 @@ p {
 
 /* CSS TABLETTES */
 
-@media screen and (max-width: 991px) {
+@media all and (max-width: 991px) {
 
     /* FILTRES */
     
