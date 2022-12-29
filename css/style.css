@@ -156,7 +156,7 @@ p {
 }
 
 .liste-filtres {
-    display: -webkit-inline-box;
+    display: block;
     white-space: nowrap;
 }
 
