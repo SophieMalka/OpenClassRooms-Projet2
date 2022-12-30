@@ -369,7 +369,10 @@ p {
 }
 
 .carte-activites h4 {
-    margin: 20px 36px 21px 19px;
+    height: 55px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
 }
 
 /* PIED DE PAGE */
@@ -472,7 +475,7 @@ p {
         height: 267px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .carte-activites img {
